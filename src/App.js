@@ -3,8 +3,9 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
-      Shop
+    <div className="wrapper">
+      <Header/>
+      <Footer/>
     </div>
   );
 }
