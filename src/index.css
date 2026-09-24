@@ -16,3 +16,12 @@ body {
     width: 1280px;
     margin: 50px auto;
 }
+
+header .logo {
+    font-weight: 600;
+    font-size: 20pxs;
+}
+
+header .presentation {
+    margin: 50px 0;
+}
