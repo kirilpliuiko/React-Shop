@@ -34,19 +34,19 @@ class App extends React.Component {
         },
         {
           id: 4,
+          title: 'Wall light',
+          img: 'wall-light.jpeg',
+          desc: 'Wall light for lighting',
+          category: 'wall-lights',
+          price: '25'
+        },
+        {
+          id: 5,
           title: 'White chair',
           img: 'chair-white.jpeg',
           desc: 'Chair for sitting',
           category: 'chairs',
           price: '49.99'
-        },
-        {
-          id: 5,
-          title: 'Wall light',
-          img: 'wall-light.jpeg',
-          desc: 'Wall light for lighting',
-          category: 'wall-lights',
-          price: '39.99'
         }
       ]
     }
@@ -55,7 +55,7 @@ class App extends React.Component {
     return (
       <div className="wrapper">
         <Header />
-        <Items items={this.state.items}/>
+        <Items items={this.state.items} />
         <Footer />
       </div>
     )
