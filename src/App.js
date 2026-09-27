@@ -11,7 +11,7 @@ class App extends React.Component {
         {
           id: 1,
           title: 'Gray chair',
-          img: 'chair-gray.jpeg',
+          img: 'chair-grey.jpeg',
           desc: 'Chair for sitting',
           category: 'chairs',
           price: '49.99'
