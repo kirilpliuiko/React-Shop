@@ -1,7 +1,6 @@
 import React from "react"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import { loremIpsum } from "lorem-ipsum"
 
 class App extends React.Component {
   constructor(props) {
@@ -30,7 +29,7 @@ class App extends React.Component {
           img: 'sofa.jpeg',
           desc: 'Sofa for chilling',
           category: 'sofas',
-          price: '49.99'
+          price: '549.99'
         },
         {
           id: 4,
@@ -46,7 +45,7 @@ class App extends React.Component {
           img: 'wall-light.jpeg',
           desc: 'Wall light for lighting',
           category: 'wall-lights',
-          price: '49.99'
+          price: '39.99'
         }
       ]
     }
