@@ -56,7 +56,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="wrapper">
-        <Header />
+        <Header orders={this.state.orders}/>
         <Items items={this.state.items} onAdd={this.addToOrder}/>
         <Footer />
       </div>
