@@ -65,7 +65,7 @@ class App extends React.Component {
   }
 
   deleteOrder(id) {
-
+    console.log(id)
   }
 
   addToOrder(item) {
