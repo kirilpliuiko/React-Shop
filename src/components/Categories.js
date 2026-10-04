@@ -18,11 +18,11 @@ export class Categories extends Component {
                     name: 'Tables'
                 },
                 {
-                    key: 'sofa',
+                    key: 'sofas',
                     name: 'Sofas'
                 },
                 {
-                    key: 'light',
+                    key: 'lights',
                     name: 'Lights'
                 }
             ]
